@@ -10,7 +10,7 @@ import retrofit2.http.GET;
 
 public interface remote {
 
-    @GET()
+    @GET("therapies")
     Call<Root> getImage(
 
     );

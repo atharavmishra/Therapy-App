@@ -3,13 +3,25 @@ package com.example.therapyapp.Model;
 import java.util.Date;
 
 public class Datum{
-    public int id;
+
     public String name;
-    public String image_nm;
-    public String image_path;
+
     public String profile;
-    public String status;
-    public Date created_at;
-    public Date updated_at;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setProfile(String profile) {
+        this.profile = profile;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getProfile() {
+        return profile;
+    }
 }
 

@@ -6,7 +6,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class remotedata {
-    private static  String BASE_URL="https://mindmyscape.localserverpro.com/api/doctor/therapies";
+    private static  String BASE_URL="https://mindmyscape.localserverpro.com/api/doctor/";
     private static Retrofit retrofit = null;
     public static remote getAPIinterface(){
         if(retrofit==null){
